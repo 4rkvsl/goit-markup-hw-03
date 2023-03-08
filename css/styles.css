@@ -1,0 +1,184 @@
+:root {
+  --accent-color: #404bbf;
+  --main-color: #2e2f42;
+  --secondary-color: #434455;
+  --third-color: #ffffff;
+  --fourth-color: #f4f4fd;
+  --background-secondary-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+  --background-buttons-color: #f4f4fd;
+  --buttons-color: #4d5ae5;
+  --logo-color: #4d5ae5;
+  --logo-word-header-color: #2e2f42;
+  --logo-word-footer-color: #f4f4fd;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+.visually-hiddden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  background-color: var(--hero-title-color);
+  font-size: 16px;
+}
+.menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+.logo-word-header {
+  color: var(--main-color);
+}
+.logo-word-of-footer {
+  color: var(--logo-word-footer-color);
+}
+.contact-mail,
+.contact-phone {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--accent-color);
+}
+.hero-section {
+  background: var(--main-color);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+}
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--third-color);
+  background: var(--buttons-color);
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--accent-color);
+}
+.future-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.future-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.our-team-section {
+  background: var(--background-secondary-color);
+}
+.footer {
+  background: var(--main-color);
+}
+.section-paragraph-of-footer {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+}
+.all-button,
+.web-site-button,
+.app-button,
+.design-button,
+.marketing-button {
+  background: var(--background-buttons-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--buttons-color);
+  font-family: inherit;
+}
+.all-button:hover,
+.all-button:focus {
+  background: var(--accent-color);
+  color: var(--third-color);
+}
+.web-site-button:hover,
+.web-site-button:focus {
+  background: var(--accent-color);
+  color: var(--third-color);
+}
+.app-button:hover,
+.app-button:focus {
+  background: var(--accent-color);
+  color: var(--third-color);
+}
+.design-button:hover,
+.design-button:focus {
+  background: var(--accent-color);
+  color: var(--third-color);
+}
+.marketing-button:hover,
+.marketing-button:focus {
+  background: var(--accent-color);
+  color: var(--thirvar(--third-color));
+}
+.list-card {
+  background: var(--third-color);
+}
