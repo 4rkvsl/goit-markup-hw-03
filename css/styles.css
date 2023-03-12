@@ -183,8 +183,6 @@ ul.menu {
   display: flex;
   gap: 24px;
 }
-.information-list-item {
-}
 .our-team-section {
   background: var(--background-secondary-color);
   padding: 120px 0px;
